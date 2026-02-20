@@ -2,8 +2,6 @@
 **Study Bot** is a simple AI-powered chatbot designed to help students with academic topics. It accepts questions, remembers previous conversations, and responds with helpful, context-aware answers. This project demonstrates how AI assistants maintain context, interact with a database, and provide dynamic responses.
 This version is a **minimal version** that echoes user messages, suitable for testing deployment on platforms like Render. Full functionality with MongoDB memory and AI-powered responses can be added later.
 
----
-
 ## Features
 
 - FastAPI-based backend for handling requests.
@@ -12,8 +10,6 @@ This version is a **minimal version** that echoes user messages, suitable for te
 - Simple, modular Python code suitable for deployment.
 - Easily extendable to integrate MongoDB and AI models.
 
----
-
 ## Technologies Used
 
 - **Python** – Programming language  
@@ -21,5 +17,3 @@ This version is a **minimal version** that echoes user messages, suitable for te
 - **Uvicorn** – ASGI server to run FastAPI  
 - **Pydantic** – Data validation for request payloads  
 - *(Optional for future upgrades)*: MongoDB, LangChain, Groq LLM
-
----
